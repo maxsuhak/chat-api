@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.7
+  Exclude:
+  - "bin/**/*"
+  - "config/environments/*"
+  - "db/**/*"
+  - "vendor/**/*"
+  - "tmp/**/*"
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
