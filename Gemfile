@@ -8,10 +8,13 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 gem 'active_model_serializers'
 gem 'bootsnap', '>= 1.4.2', require: 'bootsnap/setup'
 gem 'case_transform'
+gem 'devise'
+gem 'devise-jwt', '~> 0.5.8'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 gem 'rack-cors'
 gem 'redis', '~> 4.0'
+gem 'rswag'
 
 group :development, :test do
   gem 'factory_bot_rails'

@@ -9,7 +9,7 @@ Rails.application.configure do
   config.active_record.migration_error       = :page_load
   config.active_record.verbose_query_logs    = true
   config.file_watcher                        = ActiveSupport::EventedFileUpdateChecker
-
+  config.action_mailer.default_url_options   = { host: 'localhost', port: 3000 }
   if Rails.root.join('tmp', 'caching-dev.txt').exist?
     config.cache_store = :memory_store
     config.public_file_server.headers = {

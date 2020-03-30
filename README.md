@@ -15,6 +15,10 @@ Set up the DB
 
 Run rspec tests
 
+### `docker-compose run web rake middleware`
+
+What middleware your Rails app is using
+
 ## Notes:
 
 Front-end is located here: https://github.com/maxsuhak/chat
