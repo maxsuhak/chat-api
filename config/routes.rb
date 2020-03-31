@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  mount Rswag::Ui::Engine => '/api-docs'
-  mount Rswag::Api::Engine => '/api-docs'
+  mount Rswag::Ui::Engine => '/swagger'
+  mount Rswag::Api::Engine => '/swagger'
   mount ActionCable.server => '/cable'
 
   devise_for :users,
