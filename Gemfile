@@ -17,6 +17,7 @@ gem 'redis', '~> 4.0'
 gem 'rswag'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'pry', '~> 0.12.2'

@@ -15,7 +15,7 @@ Devise.setup do |config|
   config.sign_out_via                       = :delete
 
   config.jwt do |jwt|
-    jwt.secret = ENV['DEVISE_SECRET_KEY'] || 'c6f7b3d7ef45545e74ea2322a1caaeb5b9c154009a8d5b3e35f80053ee061971ecae27b2966a406d2a8aa68bca293934b0fc068621b3c78615a8df7ee37c7d3d'
+    jwt.secret = ENV['DEVISE_SECRET_KEY']
     jwt.dispatch_requests = [
       ['POST', %r{^/login$}]
     ]
