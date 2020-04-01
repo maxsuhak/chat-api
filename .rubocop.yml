@@ -24,3 +24,6 @@ Style/Documentation:
 
 Style/RescueStandardError:
   Enabled: false
+
+Metrics/BlockLength:
+  Max: 120
